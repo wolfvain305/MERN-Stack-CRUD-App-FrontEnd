@@ -1,5 +1,3 @@
-/* LandingPage.css */
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
@@ -21,12 +19,12 @@ body {
 }
 
 .logo {
-    width: 150px; /* Adjust based on your image size */
+    width: 150px; 
     height: auto;
 }
 
 .nav {
-    background-color: #ccc; /* Gray background */
+    background-color: #ccc;
     width: 100%;
     padding: 10px 0;
 }
@@ -48,7 +46,7 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    max-width: 1200px; /* Limit width for larger screens */
+    max-width: 1200px; 
     padding: 20px;
     background-color: white;
     border-radius: 8px;
@@ -63,14 +61,14 @@ body {
 }
 
 .random-img {
-    width: 80%; /* Adjust based on your design */
+    width: 80%; 
     height: auto;
 }
 
 .info-section {
     flex: 2;
     padding: 20px;
-    background-color: #f0f0f0; /* Light gray for contrast */
+    background-color: #f0f0f0; 
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
