@@ -1,0 +1,112 @@
+.profile-container {
+    border: 2px solid #E0E0E0;
+    border-radius: 12px;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #F8F8FF;
+  }
+  
+  .profile-header h2 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .profile-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #E6CCFF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .profile-details {
+    flex-grow: 2;
+    margin-left: 20px;
+    background-color: #E6CCFF;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .profile-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .action-button {
+    background-color: #E6CCFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .edit-button-container {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .edit-button {
+    background-color: #E6CCFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: #F8F8FF;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .popup-back {
+    background-color: #E6CCFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .popup-delete {
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  

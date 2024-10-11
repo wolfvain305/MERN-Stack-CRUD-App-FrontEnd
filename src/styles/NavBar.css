@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0; /* Background color */
+    padding: 15px 20px; /* Padding around the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Spacing between logo and text */
+}
+
+.navbar-links {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Display links in a row */
+    gap: 20px; /* Space between links */
+}
+
+.navbar-links li {
+    display: inline; /* Inline display for list items */
+}
+
+.navbar-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link color */
+    font-weight: bold; /* Bold font for links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar-links a:hover {
+    color: #777; /* Change color on hover */
+}

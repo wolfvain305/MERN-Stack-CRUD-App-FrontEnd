@@ -3,7 +3,7 @@ import { useAuth } from "../Authentication/AuthContext";
 import { useNavigate } from "react-router-dom";
 
 const SignUp = () => {
-    const[userData, setUserData] = useState({ username: '', password: ''})
+    const[userData, setUserData] = useState({ username: '', password: '', firstName: '', lastName: ''})
     const { signup } = useAuth()
     const navigate = useNavigate()
 
@@ -14,6 +14,9 @@ const SignUp = () => {
             navigate('/')
         } catch (error) {
             console.error('Sign up failed:', error)
+            if (error.response && error.response.data.message) {
+                alert(error.response.data.message)
+            }
         }
     }
 
